@@ -1,0 +1,60 @@
+@import url(//db.onlinewebfonts.com/c/c9267656d9691e9808a319937f8d860e?family=10+Cent+Comics);
+
+* {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    background-color: #000000;
+    color: #FF1493;
+    font-family: "10 Cent Comics";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.social {
+    margin-right: 1.5rem;
+    display: flex;
+
+}
+
+i {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+}
+
+main {
+    background-image: url(xywyx.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+
+a {
+    color: #FF1493;
+    text-decoration: none;
+}
+
+i:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
