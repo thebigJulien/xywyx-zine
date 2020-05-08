@@ -1,5 +1,11 @@
 @import url(//db.onlinewebfonts.com/c/c9267656d9691e9808a319937f8d860e?family=10+Cent+Comics);
 
+@font-face {
+    font-family: "10 Cent Comics";
+    src: url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.eot");
+    src: url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.woff") format("woff"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.svg#10 Cent Comics") format("svg");
+}
+
 * {
     margin: 0;
 }
