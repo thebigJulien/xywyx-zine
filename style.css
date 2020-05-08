@@ -2,9 +2,10 @@
 
 @font-face {
     font-family: "10 Cent Comics";
-    src: url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.eot");
-    src: url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.woff") format("woff"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.svg#10 Cent Comics") format("svg");
+    src: url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/c9267656d9691e9808a319937f8d860e.woff") format("woff"), 
 }
+
 
 * {
     margin: 0;
@@ -14,7 +15,7 @@ body {
     display: grid;
     background-color: #000000;
     color: #FF1493;
-    font-family: "10 Cent Comics";
+    font-family: "10 Cent Comics", sans-serif;
 }
 
 header {
